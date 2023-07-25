@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: const Color.fromARGB(255, 37, 37, 37),
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: Home(),
     );

@@ -5,7 +5,7 @@ import 'dart:convert';
 class UserPrefrences {
   static SharedPreferences? _preferences;
 
-  static const _keyNotes = 'notes';
+  static const _keyNotes = 'note';
 
   static Future init() async =>
       _preferences = await SharedPreferences.getInstance();
